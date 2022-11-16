@@ -1,7 +1,7 @@
 import axios from "axios";
 import { dateFormat } from "./format";
 
-const baseURL = "http://localhost:4000/";
+const baseURL = "https://gdent-app-be.vercel.app/";
 
 export const getAllAdmin = async () => {
 	const res = await axios.get(`${baseURL}admin/getall`);
