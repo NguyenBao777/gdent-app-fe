@@ -1,1 +1,1 @@
-export const serverPublic = "http://localhost:4000/public/";
+export const serverPublic = "https://gdent-app-be.vercel.app/";

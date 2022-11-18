@@ -66,13 +66,6 @@ const Home = () => {
 
                             GDENT phân phối chính thức các sản phẩm công nghệ cao của các hãng sản xuất hàng đầu thế giới đến từ Châu Âu, Mỹ, Nhật Bản, Hàn Quốc và cũng là đơn vị tiên phong triển khai và ứng dụng thành công những công nghệ kỹ thuật số cho ngành nha khoa
                         </p>
-
-                        {/* <div className="flex items-center justify-end w-full">
-                            <NavLink to="/"
-                                className="flex items-center justify-center w-150 px-4 py-2 bg-green-500 rounded-full hover:bg-green-400 hover:shadow-lg duration-150 transition-all ease-in-out text-white">
-                                Xem chi tiết
-                            </NavLink>
-                        </div> */}
                     </div>
                     <div className="w-full h-full md:w-1/2 p-2 ">
                         <div className="border rounded-md flex flex-col w-full h-full items-center justify-center">
