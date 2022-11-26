@@ -1,6 +1,5 @@
 import { useState } from "react";
-import { Route, Routes } from "react-router-dom";
-import { Header, Footer, Body, Cart } from "../../../components";
+import { Header, Footer, Body } from "../../../components";
 import { serviceContent } from "../../../utils/serviceContent";
 
 
@@ -24,9 +23,9 @@ const Service = () => {
                             </div>
                         ))}
                     </div>
-                    <div className="w-full xl:w-2/3 p-2">
+                    <div className="w-full md:w-2/3 hidden md:block  p-2">
                         <p className="text-xl">{tabContent.content}</p>
-                        <ul className="">
+                        <ul className="h-full">
                             {tabContent.list.map((item, index) => (
                                 <li key={index} className="text-lg">{item}</li>
                             ))}
