@@ -11,7 +11,7 @@ const Service = () => {
             <Header />
             <Body>
                 <div className="h-screen flex flex-wrap justify-center">
-                    <div className="w-full xl:w-1/3 flex flex-col items-center gap-4 p-2">
+                    <div className="w-full md:w-1/3 flex flex-col items-center gap-4 p-2">
                         {serviceContent.map((service, index) => (
                             <div key={index} className={`relative overflow-hidden bg-gray-300 rounded-md shadow-md cursor-pointer w-225 border-2 ${tabContent === service ? "border-blue-600" : "border-gray-300"}`}
                                 onClick={() => setTabContent(service)}
