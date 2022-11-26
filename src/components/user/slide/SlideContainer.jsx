@@ -30,7 +30,7 @@ const SlideContainer = () => {
         items: 1,
         center: true,
         dotsEach: 4,
-        nav: true
+        nav: false
     }
 
     return (
