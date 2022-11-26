@@ -181,7 +181,7 @@ const Home = () => {
                     <div className="flex flex-wrap items-center justify-evenly gap-4 mt-4">
                         {listBrand?.length > 0 && listBrand.map((brand, index) => (
                             <div key={index} className="shadow-md border border-gray-300 rounded-md p-2 flex flex-col items-center justify-center gap-4">
-                                <img src={`${serverPublic}/images/brand/${brand?.brand_image}`} className="w-275 h-150" alt="" />
+                                <img src={`${serverPublic}/images/brand/${brand?.brand_image}`} className="w-250 h-150" alt="" />
 
                                 <p className="text-xl text-textColor font-semibold">{brand?.brand_name}</p>
                             </div>
